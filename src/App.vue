@@ -18,7 +18,7 @@
         </div>
 
         <div class="weather-box">
-          <div class="temperature">{{Math.round(weather.main.temperature)}}°C</div>
+          <div class="temperature">{{weather.main.temp}}°C</div>
           <div class="weather">{{weather.weather[0].main}}</div>
         </div>
       </div>
@@ -47,6 +47,7 @@ export default {
     },
     setResults(results){
       this.weather = results;
+      console.log(this.weather)
     },
     dateBuilder () {
       let d = new Date();
