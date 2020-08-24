@@ -4,6 +4,18 @@
       <div class="search-box">
         <input type="text" class="search-bar" placeholder="Search..." />
       </div>
+
+      <div class="weather-wrap">
+        <div class="location-box">
+          <div class="location">Stockholm, SWE</div>
+          <div class="date">Monday 24 August 2020</div>
+        </div>
+
+        <div class="wheater-box">
+          <div class="temperature">19°C</div>
+          <div class="weather">Cloudy</div>
+        </div>
+      </div>
     </main>
   </div>
 </template>
