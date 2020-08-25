@@ -18,7 +18,9 @@
         </div>
 
         <div class="weather-box">
-          <div class="temperature">{{weather.main.temp}}°C</div>
+          <!-- <div class="temperature">{{Math.round(weather.main.temp)}}°C</div>  -->
+          <div class="temperature">{{weather.main.temp}}°C</div> 
+          Console.log({{weather.main}}) <!-- The API seems to give me wrong data about temp -->
           <div class="weather">{{weather.weather[0].main}}</div>
         </div>
       </div>
