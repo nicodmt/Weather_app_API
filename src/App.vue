@@ -19,7 +19,8 @@
 
         <div class="weather-box">
           <div class="temperature">{{Math.round(weather.main.temp)}}°C</div> 
-          <div class="weather">{{weather.weather[0].main}}</div>
+          <div class="weather">{{weather.weather[0].description}}</div>
+          <!-- <div class="weather">{{weather.weather[0].main}}</div> -->
         </div>
       </div>
     </main>
